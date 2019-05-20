@@ -1,0 +1,219 @@
+body{
+padding-top: 80px;
+}
+.bg-my{
+    background-color:#78ca77;
+}
+
+.nav-link{
+    color:#0d5fa7!important;
+}
+
+.navbar-right a{
+    color:#ffffff;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #e5eefd!important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+a{
+    padding-left:3px;
+    padding-right:3px;
+
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.panel-primary {
+    border-color: #337ab7;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #337ab7;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+
+.label-success {
+    background-color: #5cb85c;
+}
+
+.label {
+    display: inline;
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    padding: 20px;
+    position:relative;
+    left: 25px;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    /* left: 25px; */
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+#imageThumb {
+    max-width: 80px;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .modal-sm {
+        width: 340px!important;
+    }
+}
+
+.modal .thumbnail {
+    margin-bottom: 0;
+}
+.modal .thumbnail img {
+    max-width: 320px;
+    max-height: 240px;
+}
+
+.task {
+    height:100%;
+    overflow: hidden;
+}
+.task__text {
+    border: 1px solid transparent;
+     
+}
+
+.active{
+    color:orangered;
+}
+
+textarea.task__text {
+   color: #5553ce;
+   width:330px;
+   height:260px;
+}
+
+.task:hover {
+    overflow: visible;
+    height: 100%;
+
+}
+.task:hover .task__text {
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    margin-left: 6px;
+    /* margin-right: -14px; */
+    padding: 0 14px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 18px 18px 0 rgba(0,0,0,0.12), 0 3px 3px -1px rgba(0,0,0,0.3);
+}
